@@ -5,5 +5,5 @@ end
 def word_substituter(tweet)
   tweet.split(" ")
   tweet.keys.each do |words|
-    if words 
+    if words == 
 end
