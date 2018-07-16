@@ -3,6 +3,7 @@ def dictionary
 end
 
 def word_substituter(tweet)
+  tweet.split(" ")
   tweet.each do |words|
     if tweet.has_key? 
 end
