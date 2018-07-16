@@ -3,5 +3,6 @@ def dictionary
 end
 
 def word_substituter(tweet)
-  
+  tweet.each do |words|
+    if words.has_key? 
 end
