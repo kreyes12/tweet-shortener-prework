@@ -4,6 +4,6 @@ end
 
 def word_substituter(tweet)
   tweet.split(" ")
-  tweet.each do |words|
-    if tweet.has_keys?()
+  tweet.keys.each do 
+    
 end
